@@ -1,1 +1,10 @@
+[Core]
 
+Name = MedicoBot
+Module = medico_bot
+
+[Python]
+Version = 3
+
+[Documentation]
+Description = Agendamento de consultas
