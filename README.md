@@ -7,8 +7,8 @@ virtualenv -p /usr/bin/python3 .venv
 ```
 
 - [Instalação errbot](http://errbot.io/en/latest/user_guide/setup.html#installation):
-```sh
 -Configuração para o errbot subir com o 'systemd'
+```sh
 sudo vi /etc/systemd/system/errbot.service
 sudo systemctl daemon-reload
 sudo systemctl restart errbot
