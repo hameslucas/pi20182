@@ -6,7 +6,7 @@ virtualenv -p /usr/bin/python3 .venv
 . .venv/bin/activate
 ```
 
-- [Instalação errbot](http://errbot.io/en/latest/user_guide/setup.html#installation):
+- [Instalação errbot](http://errbot.io/en/latest/user_guide/setup.html#installation)
 
 -Configuração para o errbot subir com o 'systemd'
 ```sh
@@ -14,7 +14,7 @@ sudo vi /etc/systemd/system/errbot.service
 sudo systemctl daemon-reload
 sudo systemctl restart errbot
 ```
-- [Criar bot no Telegram](https://core.telegram.org/bots#3-how-do-i-create-a-bot):
+- [Criar bot no Telegram](https://core.telegram.org/bots#3-how-do-i-create-a-bot)
 
 -Alterações nos arquivos de configuração
 ```sh
