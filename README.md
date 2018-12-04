@@ -16,7 +16,9 @@ sudo systemctl restart errbot
 - [Criar bot no Telegram](https://core.telegram.org/bots#3-how-do-i-create-a-bot):
 
 -Alterações nos arquivos de configuração
+```sh
 Arquivo config.py
 BOT_ADMINS ('@CHANGE_ME",) para BOT_ADMINS = ()
 BANKEND = 'TEXT' para BACKEND = 'Telegram'
 BOT_IDENTITY = {'TOKEN DO BOT'}
+```
